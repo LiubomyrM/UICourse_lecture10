@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+}
+li {
+    width: 800px;
+    height: 114px;
+    border: 1px dotted black;
+}
+#pick img:hover {
+    -webkit-filter: grayscale(1);
+    -webkit-transition: 0.5s linear;
+}
+
+#pick {
+    float: left;
+}
+#drop {
+    float: right;
+}
+/*.text {
+    float: left;
+}
+.text li {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}*/
